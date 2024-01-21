@@ -1,0 +1,34 @@
+.responses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.DayDisplay {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.DayPanel {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.TemperatureSection {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.OtherSection {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+}
